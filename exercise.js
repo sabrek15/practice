@@ -25,3 +25,5 @@ other_div.appendChild(h1);
 other_div.appendChild(new_para);
 div.appendChild(other_div);
 
+const btn = document.querySelector('#btn');
+btn.onclick = () => alert("Hello, World!");
