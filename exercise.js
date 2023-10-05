@@ -27,3 +27,8 @@ div.appendChild(other_div);
 
 const btn = document.querySelector('#btn');
 btn.onclick = () => alert("Hello, World!");
+
+const baby = document.querySelector('#baby');
+baby.addEventListener('click', () => {
+    alert("I love you Baby!");
+})
